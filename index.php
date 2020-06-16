@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        header{
+            background-color: #2F4F4F;
+            color: white;
+            margin-bottom: 1%;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .LandingImage{
+            background: url("slider4.jpg");
+            height: 562px;
+            position: relative;
+            margin-bottom: 1%;
+        }
+        .LandingImage p{
+            font-size: 1.5em;
+            position: absolute;
+            bottom: 0;
+            max-width: 500px;
+            padding-left: 3%;
+        }
+        #Main{
+            font-size: 2em;
+        }
+        .content{
+            background-color:#f5f5f0 ;
+            text-align: justify;
+            min-height: 140%;
+            position: relative;
+            border-right: white 15px solid;
+            border-bottom: white 15px solid;
+        }
+        #topic{
+            color: #2F4F4F;
+            font-size: xx-large;
+            text-align: center;
+        }
+        .row .content img{
+            display: block;
+            max-height: 40px;
+            max-width: 120px;
+            position: absolute;
+            bottom: 1%;
+            right: 40%;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <header>
+        <div class="container">
+            <div class="row">
+                <h1 class="col-sm-10" style="font-size: 5em;">My Mechanic</h1>
+                <div class="col-sm-2 LogIn">Client Login </div>
+            </div>
+        </div>
+    </header>
+</header>
+<main>
+    <div class="LandingImage">
+        <p><span id="Main"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span> <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-lg-4 col-mr-1 content"><span id="topic"><pre> Sign Up</pre></span>This adds the name and description of the bird family, Gaviidae, into the bird_families table. You may have noticed that although the family_id column is set to increment automatically, I put a value of 100 here. That’s not necessary, but it’s another way of instituting my style of starting with an identification number that has a few digits. A family_id of 1 for an elegant and ancient bird family like that of the loons sounds either presumptuous or lame to me.<br><br><br><br> <img src="button.png"></div>
+            <br>
+            <div class="col-lg-4 content"><span id="topic"><pre> Services</pre></span>Duck, another bird we entered already in the birds table. Suppose further that we had tried to give the data in a different order from the way the columns are organized in the table. The server would accept the SQL statement and process the data as best it can, but it would not work the way we might want<br><br><br><img src="button.png"></div>
+            <br>
+            <div class="col-lg-4 content"><span id="topic"><pre> Community</pre></span>Here we can see the warning message: the server was expecting an integer value, but received text for the column, family_id. Let’s run the SELECT statement to see what we have<br><br><br><br><img src="button.png"></div>
+        </div>
+    </div>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>

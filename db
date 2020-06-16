@@ -1,0 +1,6 @@
+Hostname centre4resource.com
+User centrere_admin
+Password admin2030
+Database centrere_mechanics
+Table User
+Columns FirstName LastName UserName Email Location Password
