@@ -36,9 +36,29 @@
         }
     </style>
 </head>
+<?php
+    //if details were not submitted
+$index=0;
+if($index>=1){
+    echo <<<__END
+<div style="min-width: 20%;
+            min-height: 30%;
+            font-size: 5em;
+            margin: auto;
+            max-width: 50%;
+            max-height: 10%;
+            text-align: center;
+            padding-bottom: 5px;
+            margin-top: 7%;
+            color: #f5f5f0; 
+            background-color: #b30000">Please Try Again</div>
+__END;
+
+}
+?>
 <body>
 <h1>My Mechanic</h1>
-<form class="mt-3" action="backend-register.php" method="POST" name="registrationForm">
+<form class="mt-3" action="backend-register.php" method="POST">
     <div class="form-group">
         <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp"
                placeholder="Firstname" name="firstname">
