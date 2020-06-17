@@ -19,15 +19,13 @@
         }
         h1{
             font-size: 5em;
-            background-color: white;
             margin: auto;
             max-width: 50%;
             max-height: 10%;
-            border: white 1px solid;
-            border-radius: 2em;
             text-align: center;
             padding-bottom: 5px;
             margin-top: 7%;
+            color: #f5f5f0;
         }
         form{
             max-width: 50%;
@@ -40,7 +38,7 @@
 </head>
 <body>
 <h1>My Mechanic</h1>
-<form class="mt-3" action="backend/backend-register.php" method="POST" name="registrationForm">
+<form class="mt-3" action="backend-register.php" method="POST" name="registrationForm">
     <div class="form-group">
         <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp"
                placeholder="Firstname" name="firstname">
