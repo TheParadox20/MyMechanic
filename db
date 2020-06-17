@@ -4,3 +4,11 @@ Password admin2030
 Database centrere_mechanics
 Table User
 Columns FirstName LastName UserName Email Location Password
+##############################################
+Jaws Db
+##############################################
+Hostname u3r5w4ayhxzdrw87.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+User g6t8iwsnlkgsvlw5
+Password vvxuh08nn3ybk1px
+Database oiz87amhfef6c00m
+Table User
