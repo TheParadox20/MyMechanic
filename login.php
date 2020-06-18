@@ -30,15 +30,15 @@
         <form action="backend-login.php" method="post">
             <div class="form-group">
                 <label for="email">User name:</label>
-                <input name="user" type="text" class="form-control" id="email" placeholder="Enter username" name="email">
+                <input name="user" type="text" class="form-control" id="email" placeholder="Enter username">
             </div>
             <div class="form-group">
                 <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pass">
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input name="pass" class="form-check-input" type="checkbox" name="remember"> Remember me
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
                 </label>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
