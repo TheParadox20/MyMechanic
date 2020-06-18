@@ -18,7 +18,7 @@
             background-color: #2F4F4F;
         }
         h1{
-            font-size: 5em;
+            font-size: 7vw;
             margin: auto;
             max-width: 50%;
             max-height: 10%;
@@ -60,20 +60,20 @@ __END;
 <h1>My Mechanic</h1>
 <form class="mt-3" action="backend-register.php" method="POST">
     <div class="form-group">
-        <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp"
+        <input type="text" class="form-control" id="firstName" required="required" autofocus="autofocus" aria-describedby="firstNameHelp"
                placeholder="Firstname" name="firstname">
         <small id="firstNameHelp" class="form-text text-muted" style="display:none; color:red !important;"></small>
     </div>
 
     <div class="form-group">
-        <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp"
+        <input type="text" required="required" autofocus="autofocus" class="form-control" id="lastName" aria-describedby="lastNameHelp"
                placeholder="Lastname" name="lastname">
         <small id="lastNameHelp" class="form-text text-muted" style="display:none; color:red !important;">We'll never
         </small>
     </div>
 
     <div class="form-group">
-        <input type="text" class="form-control" id="username" aria-describedby="userNameHelp"
+        <input type="text" required="required" autofocus="autofocus" class="form-control" id="username" aria-describedby="userNameHelp"
                placeholder="User name" name="username">
         <small id="lastNameHelp" class="form-text text-muted" style="display:none; color:red !important;">We'll never
         </small>
@@ -87,7 +87,7 @@ __END;
     </div>
 
     <div class="form-group">
-        <input type="location" class="form-control" id="exampleInputLocation1"
+        <input type="location" required="required" autofocus="autofocus" class="form-control" id="exampleInputLocation1"
                aria-describedby="locationHelp" placeholder="Location" name="location">
         <small id="locationHelp" class="form-text text-muted" style="display:none; color:red !important;">
         </small>
@@ -95,7 +95,7 @@ __END;
 
     <div class="form-group">
         <input type="password"
-               class="form-control" id="passwordInput" placeholder="Password"
+               class="form-control" required="required" autofocus="autofocus" id="passwordInput" placeholder="Password"
                name="password">
         <small id="passwordHelp" class="form-text text-muted" style="display:none; color:red !important;">
         </small>

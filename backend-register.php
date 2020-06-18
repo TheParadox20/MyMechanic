@@ -10,6 +10,6 @@ $pass=password_hash($_POST['password'] , PASSWORD_DEFAULT);
 $link = new mysqli($Hn , $User , $Pass , $Db );
 $submit = "INSERT INTO `User` (`FirstName` , `LastName` , `UserName` , `Email` , `Location` , `Password`) VALUES ('$fn' , '$ln' , '$un' , '$Email' , '$Location' , '$pass')";
 $link->query($submit);
-include "login.php";
 $link->close();
+include "login.php";
 ?>

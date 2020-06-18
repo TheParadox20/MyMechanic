@@ -30,7 +30,7 @@
         <form action="backend-login.php" method="post">
             <div class="form-group">
                 <label for="email">User name:</label>
-                <input name="user" type="email" class="form-control" id="email" placeholder="Enter username" name="email">
+                <input name="user" type="text" class="form-control" id="email" placeholder="Enter username" name="email">
             </div>
             <div class="form-group">
                 <label for="pwd">Password:</label>
