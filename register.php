@@ -35,6 +35,20 @@
             padding: 1%;
         }
     </style>
+    <script>
+        function passwordValidate(first , second) {
+            return first==second?"":"Passwords does not match"
+        }
+        function validate(form) {
+            var omega = passwordValidate(document.forms['myForm'] ['password'].value , document.forms['myForm'] ['confirm_password'].value )
+            if (omega == "") {
+                return true
+            }else {
+                alert(omega);
+                return false;
+            }
+        }
+    </script>
 </head>
 <?php
     //if details were not submitted
@@ -58,7 +72,7 @@ __END;
 ?>
 <body>
 <h1>My Mechanic</h1>
-<form class="mt-3" action="backend-register.php" method="POST">
+<form class="mt-3" action="backend-register.php" name="myForm" method="POST" onsubmit="return validate()">
     <div class="form-group">
         <input type="text" class="form-control" id="firstName" required="required" autofocus="autofocus" aria-describedby="firstNameHelp"
                placeholder="Firstname" name="firstname">
