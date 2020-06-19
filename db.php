@@ -1,7 +1,7 @@
 <?php
-$Hn = "u3r5w4ayhxzdrw87.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$User =  "g6t8iwsnlkgsvlw5";
-$Pass = "vvxuh08nn3ybk1px";
-$Db = "oiz87amhfef6c00m";
+$Hn = "centre4resource.com";
+$User =  "centrere_MyMechanic";
+$Pass = "samson2002";
+$Db = "centrere_mechanic";
 $Table = "User";
 ?>
