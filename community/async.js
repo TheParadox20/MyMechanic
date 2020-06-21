@@ -1,0 +1,1 @@
+xHttp = new XMLHttpRequest();
