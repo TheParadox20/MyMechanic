@@ -11,5 +11,5 @@ $link = new mysqli($Hn , $User , $Pass , $Db );
 $submit = "INSERT INTO `User` (`FirstName` , `LastName` , `UserName` , `Email` , `Location` , `Password`) VALUES ('$fn' , '$ln' , '$un' , '$Email' , '$Location' , '$pass')";
 $link->query($submit);
 $link->close();
-include "login.php";
+include "../login/login.php";
 ?>
