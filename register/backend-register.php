@@ -1,6 +1,6 @@
 <?php
 //Columns FirstName LastName UserName Email Location Password
-require_once "db.php";
+require_once "../db.php";
 $fn=$_POST['firstname'];
 $ln=$_POST['lastname'];
 $un=$_POST['username'];

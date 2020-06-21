@@ -124,7 +124,7 @@ __END;
 
     <div class="float-left">
         <button type="submit" class="btn btn-primary" id="registerButton" name="registerButton">Register</button>
-        <a href="login.php" class="ml-2"> <i class="fa fa-arrow-circle-left px-2"></i>I already have account</a>
+        <a href="../login/login.php" class="ml-2"> <i class="fa fa-arrow-circle-left px-2"></i>I already have account</a>
     </div>
 
 </form>
