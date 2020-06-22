@@ -31,7 +31,7 @@
 <div class="center">
     <div class="container">
         <h2>My Mechanic</h2>
-        <form action="backend-login.php" method="post">
+        <form action="../backend-login.php" method="post">
             <div class="form-group">
                 <label for="email">User name:</label>
                 <input name="user" type="text" class="form-control" id="email" placeholder="Enter username">

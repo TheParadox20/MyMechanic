@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <?php
+       session_start();
+    ?>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>My Mechanic</title>
