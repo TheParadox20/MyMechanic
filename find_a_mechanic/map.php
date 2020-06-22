@@ -47,8 +47,10 @@
 </header>
 <main>
     <div class="container-fluid">
-        <div class="col-lg-4"><h1>Under Construction</h1></div>
-        <div class="col-lg-8" id='map' style='width: 800px; height: 600px; margin: auto;' ></div>
+        <div class="row">
+            <div class="col-lg-4"><h1>Under Construction</h1></div>
+            <div class="col-lg-8" id='map' style='width: 800px; height: 600px;' ></div>
+        </div>
     </div>
 </main>
 <script src="mapBox.js"></script>
