@@ -80,8 +80,8 @@
             min-width: 50px;
         }
         .LogIn img{
-            max-height: 40%;
-            max-width: 35%;
+            max-height: 40px;
+            max-width: 35px;
         }
     </style>
 </head>
