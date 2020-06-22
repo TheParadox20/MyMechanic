@@ -2,6 +2,7 @@
 <html>
 <head>
     <?php
+    session_start();
     $User=$_SESSION['UserName'];
     ?>
     <title>My Mechanic</title>

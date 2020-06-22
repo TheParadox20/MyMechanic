@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <?php
+    session_start();
     $User=$_SESSION['UserName'];
     ?>
     <meta charset="UTF-8">
