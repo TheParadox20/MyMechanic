@@ -2,8 +2,7 @@
 <html>
 <head>
     <?php
-    session_start();
-    $User=$_SESSION['UserName'];
+    require_once "mediator.php";
     ?>
     <title>My Mechanic</title>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -45,7 +44,7 @@
             <div class="col-sm-4">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6" style="padding-top: 10px"><?php echo "$User"; ?><img style="max-height: 50px; max-width: 45px;" src="user.png"></div>
+                        <div class="col-sm-6" style="padding-top: 10px"><?php echo "$USERLogged"; ?><img style="max-height: 50px; max-width: 45px;" src="user.png"></div>
                         <div class="col-sm-6 LogIn" style="padding-top: 10px"> <a href="logout.php"> LogOut <img style="max-height: 50px; max-width: 45px;" src="logout.png"> </a> </div>
                     </div>
                 </div>

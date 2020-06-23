@@ -9,7 +9,9 @@ $results = $link->query($passQuery);
 $data=$results->fetch_array(MYSQLI_NUM);
 if (password_verify($pass, $data[0])) {
     session_start();
+    require_once "mediator.php";
     $_SESSION['UserName'] = $Ur;
+    $USERLogged = $Ur;
     include_once "services.php";
 }
 ?>
