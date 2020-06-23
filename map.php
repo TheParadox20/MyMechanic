@@ -56,7 +56,7 @@ $USERLogged = $_COOKIE['logged'];
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4"><h1>Under Construction</h1></div>
-            <div class="col-lg-8" id='map' style='width: 800px; height: 600px;' ></div>
+            <div class="col-lg-8" id='map' onload="getLocation()" style='width: 800px; height: 600px;' ></div>
         </div>
     </div>
 </main>
