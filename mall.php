@@ -51,6 +51,7 @@
     </div>
 </header>
 <main>
+    <h1><?php echo "$USERLogged"; ?></h1>
     <h1>Mall Under Construction</h1>
 </main>
 </body>
