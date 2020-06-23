@@ -1,5 +1,5 @@
 <?php
-require_once "../db.php";
+require_once "db.php";
 $link = new mysqli($Hn , $User , $Pass , $Db );
 if ($link->connect_error) die("fatal error");
 $Ur = $_POST['user'];
