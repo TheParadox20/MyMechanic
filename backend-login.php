@@ -11,7 +11,7 @@ if (password_verify($pass, $data[0])) {
     session_start();
     require_once "mediator.php";
     $_SESSION['UserName'] = $Ur;
-    $USERLogged = $Ur;
+    $USERLogged += $Ur;
     include_once "services.php";
 }
 ?>
