@@ -90,7 +90,7 @@
     <div class="container">
         <div class="row">
             <h1 class="col-sm-10" style="font-size: 35px;">My Mechanic</h1>
-            <div class="col-sm-2 LogIn" style="padding-top: 10px"> <a href="login/login.php">Client Login <img src="login.png"> </a> </div>
+            <div class="col-sm-2 LogIn" style="padding-top: 10px"> <a href="login.php">Client Login <img src="login.png"> </a> </div>
         </div>
     </div>
 </header>
@@ -100,11 +100,11 @@
     </div>
     <div class="container">
         <div class="row justify-content-around">
-            <div class="col-lg-4 col-mr-1 content"><img id="icons" src="sign-up.png"><span id="topic"><pre> Sign Up</pre></span>This adds the name and description of the bird family, Gaviidae, into the bird_families table. You may have noticed that although the family_id column is set to increment automatically, I put a value of 100 here. That’s not necessary, but it’s another way of instituting my style of starting with an identification number that has a few digits. A family_id of 1 for an elegant and ancient bird family like that of the loons sounds either presumptuous or lame to me.<br><br><br><br><a href="register/register.php"><img src="button.png"></a></div>
+            <div class="col-lg-4 col-mr-1 content"><img id="icons" src="sign-up.png"><span id="topic"><pre> Sign Up</pre></span>This adds the name and description of the bird family, Gaviidae, into the bird_families table. You may have noticed that although the family_id column is set to increment automatically, I put a value of 100 here. That’s not necessary, but it’s another way of instituting my style of starting with an identification number that has a few digits. A family_id of 1 for an elegant and ancient bird family like that of the loons sounds either presumptuous or lame to me.<br><br><br><br><a href="register.php"><img src="button.png"></a></div>
             <br>
-            <div class="col-lg-4 content"><img id="icons" src="services.png"><span id="topic"><pre> Services</pre></span>Duck, another bird we entered already in the birds table. Suppose further that we had tried to give the data in a different order from the way the columns are organized in the table. The server would accept the SQL statement and process the data as best it can, but it would not work the way we might want<br><br><br><a href="login/login.php"><img src="button.png"></a> </div>
+            <div class="col-lg-4 content"><img id="icons" src="services.png"><span id="topic"><pre> Services</pre></span>Duck, another bird we entered already in the birds table. Suppose further that we had tried to give the data in a different order from the way the columns are organized in the table. The server would accept the SQL statement and process the data as best it can, but it would not work the way we might want<br><br><br><a href="login.php"><img src="button.png"></a> </div>
             <br>
-            <div class="col-lg-4 content"><img id="icons" src="chat.png"><span id="topic"><pre> Community</pre></span>Here we can see the warning message: the server was expecting an integer value, but received text for the column, family_id. Let’s run the SELECT statement to see what we have<br><br><br><br><a href="login/login.php"><img src="button.png"></a> </div>
+            <div class="col-lg-4 content"><img id="icons" src="chat.png"><span id="topic"><pre> Community</pre></span>Here we can see the warning message: the server was expecting an integer value, but received text for the column, family_id. Let’s run the SELECT statement to see what we have<br><br><br><br><a href="login.php"><img src="button.png"></a> </div>
         </div>
     </div>
 </main>
