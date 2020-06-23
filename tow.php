@@ -1,9 +1,9 @@
+<?php
+$USERLogged = $_COOKIE['logged'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php
-    require_once "mediator.php";
-    ?>
     <meta charset="UTF-8">
     <title>My Mechanic</title>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">

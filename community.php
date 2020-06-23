@@ -1,10 +1,9 @@
+<?php
+$USERLogged = $_COOKIE['logged'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php
-    session_start();
-    $User=$_SESSION['UserName'];
-    ?>
     <meta charset="UTF-8">
     <title>My Mechanic</title>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
