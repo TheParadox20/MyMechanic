@@ -45,7 +45,12 @@
                     <input class="form-check-input" type="checkbox" name="remember"> Remember me
                 </label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4"><button type="submit" class="btn btn-primary">Submit</button></div>
+                    <div class="col-sm-8"><a href="register.php">NO Account? Register here</a></div>
+                </div>
+            </div>
         </form>
     </div>
 </div>
