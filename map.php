@@ -55,7 +55,7 @@ $USERLogged = $_COOKIE['logged'];
 <main>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4"><button class="btn-primary" style="padding: 10px; margin: auto; font-size: 25px" data-toggle="collapse" data-target="" >Top Mechanics</button> </div>
+            <div class="col-lg-4"><button class="btn-primary" style="padding-left: 35px; padding-right: 35px; margin: auto; font-size: 25px" data-toggle="collapse" data-target="" >Top Mechanics</button> </div>
             <div id="topMechanics" class="collapse">
                 <?php require "map-backend.php"?>
             </div>
