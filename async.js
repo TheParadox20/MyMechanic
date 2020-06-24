@@ -1,1 +1,1 @@
-xHttp = new XMLHttpRequest();
+async = new XMLHttpRequest();
