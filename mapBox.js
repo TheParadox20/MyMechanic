@@ -12,6 +12,22 @@ function getLocation() {
 function showPosition(position) {
     currentLong = position.coords.longitude;
     currentLatt = position.coords.latitude;
+
+
+//#######################################################
+//#######################################################
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoidGhlcGFyYWRveDIwIiwiYSI6ImNrYnBydjFjczJmMnAyenF2bDQ1eHZwMnoifQ.OxVufsq41KKHkFlWxDpVUQ';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [currentLong , currentLatt], // starting position [lng, lat]
+        zoom: 12
+    });
+//new Marker(options: Object?, legacyOptions: Options?)
+    var marker = new mapboxgl.Marker()
+        .setLngLat([ currentLong , currentLatt])
+        .addTo(map);
 }
 function showError(error) {
     switch(error.code) {
@@ -29,19 +45,4 @@ function showError(error) {
             break;
     }
 }
-
-//#######################################################
-//#######################################################
-
-mapboxgl.accessToken = 'pk.eyJ1IjoidGhlcGFyYWRveDIwIiwiYSI6ImNrYnBydjFjczJmMnAyenF2bDQ1eHZwMnoifQ.OxVufsq41KKHkFlWxDpVUQ';
-var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11',
-    center: [currentLong, currentLatt], // starting position [lng, lat]
-    zoom: 12
-});
-//new Marker(options: Object?, legacyOptions: Options?)
-var marker = new mapboxgl.Marker()
-    .setLngLat([ currentLong , currentLatt])
-    .addTo(map);
 
