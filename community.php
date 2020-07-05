@@ -32,9 +32,21 @@ $USERLogged = $_COOKIE['logged'];
             text-decoration: none;
             color: white;
         }
+        #chatRoom{
+            background-image: url("white-and-grey-surface-2824173.jpg");
+            min-height: 570px;
+            max-height: content-box;
+            background-size: contain;
+        }
+        form{
+            position: sticky;
+            bottom: 0;
+            z-index: 1000;
+        }
     </style>
+    <script src="async.js"></script>
 </head>
-<body>
+<body onload="receiver()">
 <header>
     <div class="container">
         <div class="row">
@@ -51,8 +63,25 @@ $USERLogged = $_COOKIE['logged'];
     </div>
 </header>
 <main>
-    <div id="chat">
-        <h1>Community Under Construction</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="col-lg-4"><button class="btn-primary" style="padding-left: 35px; padding-right: 35px; margin: auto; font-size: 25px" data-toggle="collapse" data-target="topics" >Top Mechanics</button> </div>
+                <div id="topics" class="collapse">
+                    <?php require "topic.php"?>
+                </div>
+            </div>
+            <div class="col-md-6 " >
+                <div id="chatRoom"></div>
+                <form name="messenger" id="messenger" method="post">
+                    <input type="text" style="min-width: 60%" name="message" id="message" placeholder="Enter message">
+                    <button onclick="sender()"><img style="max-height: 25px; max-width: 35px" src="send.png"></button>
+                </form>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
     </div>
 </main>
 </body>
