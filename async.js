@@ -1,3 +1,4 @@
+setInterval(receiver , 1000);
 function receiver (){
     var request = new XMLHttpRequest();
     request.open("POST" , "ajax.php");

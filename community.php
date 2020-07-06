@@ -35,8 +35,16 @@ $USERLogged = $_COOKIE['logged'];
         #chatRoom{
             background-image: url("white-and-grey-surface-2824173.jpg");
             min-height: 570px;
-            max-height: content-box;
+            max-height: 500px;
             background-size: contain;
+            overflow: scroll;
+        }
+        #chatRoom::-webkit-scrollbar {
+            display: none;
+        }
+        #chatRoom {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
         }
         form{
             position: sticky;
