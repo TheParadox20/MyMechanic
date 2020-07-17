@@ -89,7 +89,7 @@
 <header>
     <div class="container">
         <div class="row">
-            <h1 class="col-sm-10" style="font-size: 35px;">My Mechanic</h1>
+            <h1 class="col-sm-10" style="font-size: 35px;">Presentation example</h1>
             <div class="col-sm-2 LogIn" style="padding-top: 10px"> <a href="login.php">Client Login <img src="login.png"> </a> </div>
         </div>
     </div>
